@@ -1,0 +1,11 @@
+h1{
+    background-color: antiquewhite;
+    color: burlywood;
+}
+.font-red{
+    color:crimson;
+}
+#unique {
+    border: 5px solid orangered;
+}
+.bg-blue{background-color: blueviolet;}
