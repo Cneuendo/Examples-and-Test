@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    GET method is 100% insecure
+    Post method does not show variable in the URL bar
+    -->
+   
+    <form method="get" action="">
+
+        
+        <!--DROPDOWNS-->
+        <select name="selected_item" id="" class="" required="required">
+            <option value="" disabled="disabled" selected="selected">-- Selected Item --</option>
+            <option value="option_1">Option 1</option>
+            <option value="something_else">Option 2</option>
+            <option value="last_option" >Option 3</option>
+            <!-- For default selected="selected" -->
+        </select>
+     
+        
+        <button type="submit">
+            Submit
+        </button>
+        
+        <br />
+        <br />
+        <hr>
+        <br />
+        <br />
+        
+        
+        <!--Button-->
+        <input 
+        type="url" 
+        placeholder="https://yourwebsite.com"
+        value="https://raider-trader.com"
+        name="website"
+        >
+        <!-- <input type="submit" value="SUBMIT"> -->
+        <button type="button">Button</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+        <br />
+        <br />
+        <hr>
+        <br />
+        <br />
+
+        <!--Text Area-->
+        <label for=""></label>
+     
+        <textarea 
+        placeholder="Ghost text" 
+        cols="20" 
+        rows="10"
+        required="required"
+        name="textarea"
+        id=""
+        class=""
+        disabled=""
+        minlength="5"
+        maxlength="1000"
+        autofocus="autofocus">Default Text in here</textarea>
+        <input type="submit" value="Submit">
+        <!--Autofocus is the form field that is set when the page loads-->
+
+       
+        <br />
+        <br />
+        <hr>
+        <br />
+        <br />
+        <!--INPUT TYPES -->
+        <div>
+            <!--TEXT-->
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname"><br />
+
+            <!--CHECKBOX-->
+            <label for="checkbox_field">CheckBox</label>
+            <input type="checkbox"><br />
+
+            <!--RADIO-->
+            <label> Radio Buttons</label>
+            <input type="radio" name="radio_text" value="1">
+            <input type="radio" name="radio_text" value="2">
+            <input type="radio" name="radio_text" value="3"><br />
+        
+            <!--DATE-->
+            <label for="">Date</label>
+            <input type="Date" name="date"><br />
+        
+            <!--EMAIL-->
+            <label for="">Email</label>
+            <input type="email"><br />
+       
+           <!--HIDDEN-->
+            Hidden
+            <input type="hidden" name="hidden" value="is_hidden"><br />
+
+            <!--NUMBER-->
+            Number
+            <input type="number" name="number" step=".5" max="50" min="0"><br />
+
+            <!--PASSWORD-->
+            Password:
+            <input type="password" name="password" placeholder="ghost text">
+        </div>
+
+        <br />
+        <br />
+        <hr>
+        <br />
+        <br />
+
+        <input type="text" name="firstname"><br />
+        <input type="text" name="lastname"><br />
+        <input type="password" name="password"><br />
+        <input type="submit" value="Submit"><br />
+
+        <br />
+        <br />
+        <hr>
+        <br />
+        <br />
+
+    </form>
+</body>
+</html>
