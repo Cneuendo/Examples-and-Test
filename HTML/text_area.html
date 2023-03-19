@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--
+    GET method is 100% insecure
+    Post method does not show variable in the URL bar
+    -->
+
+    <form method="GET" action="t1">
+       <label for=""></label>
+     
+        <textarea 
+        placeholder="Ghost text" 
+        cols="20" 
+        rows="10"
+        required="required"
+        name="textarea"
+        id="t1"
+        class=""
+        disabled=""
+        minlength="5"
+        maxlength="1000"
+        autofocus="autofocus">Default Text in here</textarea>
+        <input type="submit" value="Sumbit">
+        <!--Autofocus is the form field that is set when the page loads-->
+    </form>
+   
+</body>
+</html>
